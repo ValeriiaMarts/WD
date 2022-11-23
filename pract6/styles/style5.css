@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    font-size: 20px;
+}
+.back{
+    font-style: italic;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.photo_papka{
+    font-size: 70%;
+}
+.photo_papka1{
+    font-size: 130%;
+}
+.photo{
+    display: block;
+    margin: auto;
+}
+.photo_online{
+    font-size: 169%;
+}

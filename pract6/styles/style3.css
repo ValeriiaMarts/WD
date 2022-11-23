@@ -1,0 +1,51 @@
+.list li:nth-child(odd){
+    background-color: gray;
+    color: blue;
+}
+ul li:nth-child(even){
+    background-color: white;
+    color: black;
+}
+.three:hover{
+    background-color: black;
+    color: pink;
+}
+ol li:nth-child(5):hover{
+    background-color: black;
+    color: pink;
+}
+ol li:nth-child(4){
+    background-color: blue;
+    color: red;
+}
+h1{
+    text-align: center;
+    font-size: 22px;
+}
+a{
+    font-style: italic;
+}
+h2{
+    text-align: center;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+@media (min-width: 992px) {
+    .col-lg-6{
+        width: 50%
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .col-md-12{
+        width: 100%;
+    }
+}
+@media (max-width: 767px){
+    .col-mn-12{
+        width: 100%;
+    }
+}

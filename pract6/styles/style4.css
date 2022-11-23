@@ -1,0 +1,53 @@
+table, th, td {
+    border: 1px solid black;
+}
+table tr:nth-child(even){
+    background-color: gray;
+    color: white;
+}
+table tr:nth-child(odd){
+    background-color: white;
+    color:black;
+}
+h1{
+    text-align: center;
+    font-size: 22px;
+}
+a{
+    font-style: italic;
+}
+h2 {
+    text-align: center;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+}
+.title1{
+    background-color: green;
+    color: white;
+}
+.number{
+    text-align: right;
+}
+@media (min-width: 992px){
+    .title1{
+        font-size: 130%;
+    }
+    .title2{
+        font-size: 120%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .title1{
+        font-size: 120%;
+    }
+    .title2{
+        font-size: 110%;
+    }
+}
+@media (max-width: 767px) {
+    .title1{
+        font-size: 110%;
+    }
+}
