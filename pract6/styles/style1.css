@@ -13,9 +13,19 @@ p {
     font-size: 120%;
 }
 .row {
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    text-align: center;
+}
+.item {
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 0;
+}
+a {
+    font-size: 34px;
+    padding: 20px 0;
 }
 
 @media (min-width: 992px) {
@@ -24,11 +34,23 @@ p {
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
+   .row {
+        flex-wrap: wrap;
+    }
+    
     .col-md-6 {
         width: 50%;
     }
+    
+    .col-md-12{
+        width: 100%;
+    }   
 }
 @media (max-width: 767px) {
+    .row {
+        flex-direction: column;
+    }
+    
     .col-mn-12 {
         width: 100%;
     }
