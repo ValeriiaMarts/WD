@@ -1,0 +1,197 @@
+#id5{
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+ }
+#id5:visited{
+    background-color: red;
+    color: lightpink;
+}
+#id5:link{
+    background-color: green;
+    color: brown;
+}
+#id5:hover{
+    background-color: darkblue;
+    color:azure;
+}
+#id5:active{
+    background-color: white;
+    color: black;
+}
+.titles{
+    font-family: 'Oswald', sans-serif;
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+.main h3{
+    font-family: 'Lora', serif;
+}
+.main p, ul, li, th, td{
+    font-family: 'Noto Serif', serif;
+}
+.first{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    background-color: lightblue;
+    margin: 5px;
+}
+.second{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    background-color: lavender;
+    margin: 5px;
+}
+.third{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    background-color: lightpink;
+    margin: 5px;
+}
+.four{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    background-color: lightgoldenrodyellow;
+    margin: 5px;
+}
+.first h3{
+    border: 2px solid black;
+    border-left: 0;
+    border-bottom: 0;
+    background-color: blue;
+    width: 55px;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+.second h3{
+    border: 2px solid black;
+    border-left: 0;
+    border-bottom: 0;
+    background-color: violet;
+    border-radius: 5px;
+    width:75px ;
+    padding: 5px;
+    color: white;
+    margin-bottom: 0;
+}
+.third h3{
+    border: 2px solid black;
+    border-left: 0;
+    border-bottom: 0;
+    background-color: magenta;
+    border-radius: 5px;
+    width:85px ;
+    padding: 5px;
+    color: black;
+    margin-bottom: 0;
+}
+.four h3{
+    border: 2px solid black;
+    border-left: 0;
+    border-bottom: 0;
+    background-color: darkgoldenrod;
+    border-radius: 5px;
+    width:120px ;
+    padding: 5px;
+    color: black;
+    margin-bottom: 0;
+}
+table{
+    border: 2px solid darkgreen;
+    margin-top: 2px;
+    color: brown;
+}
+th{
+    background-color: lightcoral;
+    border: 2px solid blue;
+}
+td{
+    background-color: yellow;
+    border: 2px solid black;
+}
+#id1{
+    font-size: 120%;
+}
+#id2{
+    font-size: 120%;
+}
+#id3{
+    font-size: 120%;
+}
+#id4{
+    font-size: 120%;
+}
+p{
+    color: fuchsia;
+}
+ol{
+    color: black;
+}
+.item{
+    display: flex;
+}
+img{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 290px;
+}
+@media (min-width: 1200px){
+    .col-lg-3{
+        width: 25%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .main{
+        flex-wrap: wrap;
+    }
+    .col-md-4{
+        width: 33.33%;
+    }
+    .col-md-12{
+        width: 100%
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .main{
+        flex-wrap: wrap;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+}
+@media (max-width: 768px){
+    .maink{
+        flex-direction: column;
+    }
+    .col-xs-12{
+        width: 100%;
+    }
+}
