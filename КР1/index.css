@@ -188,7 +188,7 @@ img{
     }
 }
 @media (max-width: 768px){
-    .maink{
+    .main{
         flex-direction: column;
     }
     .col-xs-12{
